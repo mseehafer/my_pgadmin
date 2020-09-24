@@ -20,7 +20,8 @@ setup(name='my_pgadmin',
           "pycryptodome",
           "psycopg2",
           "sqlparse",
-          "waitress",
-          'pgadmin4 @ https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v4.11/pip/pgadmin4-4.11-py2.py3-none-any.whl'
+          "waitress"
+          # ,
+          # 'pgadmin4 @ https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v4.11/pip/pgadmin4-4.11-py2.py3-none-any.whl'
       ],
       zip_safe=False)
